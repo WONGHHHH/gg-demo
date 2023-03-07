@@ -6,6 +6,9 @@ import (
 	"github.com/fogleman/gg"
 )
 
+/**
+渐变圆
+*/
 func main() {
 	dc := gg.NewContext(400, 200)
 

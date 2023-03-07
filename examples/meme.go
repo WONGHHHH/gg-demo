@@ -2,14 +2,17 @@ package main
 
 import "github.com/fogleman/gg"
 
+/**
+阴影文字
+*/
 func main() {
 	const S = 1024
 	dc := gg.NewContext(S, S)
 	dc.SetRGB(1, 1, 1)
 	dc.Clear()
-	if err := dc.LoadFontFace("/Library/Fonts/Impact.ttf", 96); err != nil {
-		panic(err)
-	}
+	//if err := dc.LoadFontFace("/Library/Fonts/Impact.ttf", 96); err != nil {
+	//	panic(err)
+	//}
 	dc.SetRGB(0, 0, 0)
 	s := "ONE DOES NOT SIMPLY"
 	n := 6 // "stroke" size

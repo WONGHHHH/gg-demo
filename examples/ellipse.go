@@ -2,6 +2,9 @@ package main
 
 import "github.com/fogleman/gg"
 
+/**
+阴影曲线
+*/
 func main() {
 	const S = 1024
 	dc := gg.NewContext(S, S)
@@ -13,7 +16,7 @@ func main() {
 		dc.Fill()
 		dc.Pop()
 	}
-	if im, err := gg.LoadImage("examples/gopher.png"); err == nil {
+	if im, err := gg.LoadImage("./gopher.png"); err == nil {
 		dc.DrawImageAnchored(im, S/2, S/2, 0.5, 0.5)
 	}
 	dc.SavePNG("out.png")

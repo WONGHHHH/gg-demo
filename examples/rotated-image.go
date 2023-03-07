@@ -2,10 +2,13 @@ package main
 
 import "github.com/fogleman/gg"
 
+/**
+翻转裁剪
+*/
 func main() {
 	const W = 400
 	const H = 500
-	im, err := gg.LoadPNG("examples/gopher.png")
+	im, err := gg.LoadPNG("./gopher.png")
 	if err != nil {
 		panic(err)
 	}

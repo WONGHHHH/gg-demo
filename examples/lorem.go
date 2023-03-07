@@ -11,6 +11,9 @@ var lines = []string{
 	"non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
 }
 
+/**
+多行文字
+*/
 func main() {
 	const W = 800
 	const H = 400

@@ -6,6 +6,9 @@ import (
 	"github.com/fogleman/gg"
 )
 
+/**
+彩色线
+*/
 func main() {
 	const W = 1024
 	const H = 1024

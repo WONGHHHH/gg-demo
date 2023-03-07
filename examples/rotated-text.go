@@ -6,6 +6,9 @@ import (
 	"golang.org/x/image/font/gofont/goregular"
 )
 
+/**
+字体翻转
+*/
 func main() {
 	const S = 400
 	dc := gg.NewContext(S, S)

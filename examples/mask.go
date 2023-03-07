@@ -6,8 +6,11 @@ import (
 	"github.com/fogleman/gg"
 )
 
+/**
+转圆角
+*/
 func main() {
-	im, err := gg.LoadImage("examples/baboon.png")
+	im, err := gg.LoadImage("./baboon.png")
 	if err != nil {
 		log.Fatal(err)
 	}

@@ -11,6 +11,9 @@ const (
 	H = 512
 )
 
+/**
+渐变文字
+*/
 func main() {
 	dc := gg.NewContext(W, H)
 

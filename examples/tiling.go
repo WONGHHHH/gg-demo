@@ -5,7 +5,7 @@ import "github.com/fogleman/gg"
 func main() {
 	const NX = 4
 	const NY = 3
-	im, err := gg.LoadPNG("examples/gopher.png")
+	im, err := gg.LoadPNG("./gopher.png")
 	if err != nil {
 		panic(err)
 	}

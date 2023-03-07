@@ -56,6 +56,9 @@ func randomCubic(dc *gg.Context) {
 	drawPoints(dc)
 }
 
+/**
+贝赛尔曲线
+*/
 func main() {
 	const (
 		S = 256

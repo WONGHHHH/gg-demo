@@ -6,13 +6,16 @@ import (
 	"github.com/fogleman/gg"
 )
 
+/**
+合并图片
+*/
 func main() {
-	im1, err := gg.LoadPNG("examples/baboon.png")
+	im1, err := gg.LoadPNG("./baboon.png")
 	if err != nil {
 		panic(err)
 	}
 
-	im2, err := gg.LoadPNG("examples/gopher.png")
+	im2, err := gg.LoadPNG("./gopher.png")
 	if err != nil {
 		panic(err)
 	}

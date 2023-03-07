@@ -4,6 +4,9 @@ import (
 	"github.com/fogleman/gg"
 )
 
+/**
+条纹
+*/
 func main() {
 	const W = 1000
 	const H = 1000

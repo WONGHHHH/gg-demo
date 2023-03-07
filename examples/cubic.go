@@ -2,6 +2,9 @@ package main
 
 import "github.com/fogleman/gg"
 
+/**
+曲线
+*/
 func main() {
 	const S = 1000
 	dc := gg.NewContext(S, S)

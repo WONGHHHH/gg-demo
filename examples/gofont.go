@@ -8,6 +8,9 @@ import (
 	"golang.org/x/image/font/gofont/goregular"
 )
 
+/**
+文字转图片
+*/
 func main() {
 	font, err := truetype.Parse(goregular.TTF)
 	if err != nil {

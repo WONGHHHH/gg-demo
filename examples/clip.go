@@ -2,6 +2,9 @@ package main
 
 import "github.com/fogleman/gg"
 
+/**
+椭圆
+*/
 func main() {
 	dc := gg.NewContext(1000, 1000)
 	dc.DrawCircle(350, 500, 300)
